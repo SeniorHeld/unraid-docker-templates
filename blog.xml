@@ -3,8 +3,8 @@
   <Name>Blog</Name>
   <Repository>m1k1o/blog</Repository>
   <Registry>https://hub.docker.com/r/m1k1o/blog</Registry>
-  <TemplateURL>https://raw.githubusercontent.com/digiblur/unraid-docker-templates/master/amcrest2mqtt.xml</TemplateURL>  
-  <WebUI/>
+  <TemplateURL>https://raw.githubusercontent.com/digiblur/unraid-docker-templates/master/amcrest2mqtt.xml</TemplateURL>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
   <Support>https://github.com/digiblur/unraid-docker-templates</Support>
