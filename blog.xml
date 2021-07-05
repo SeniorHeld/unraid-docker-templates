@@ -21,4 +21,5 @@
   <Config Name="Password" Target="BLOG_PASS" Default="password" Mode="" Description="Password for login" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Language" Target="BLOG_LANG" Default="de" Mode="" Description="Blogs Language" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Port" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">80</Config>
+  <Config Name="Blogpath" Target="/var/www/html/data" Default="/mnt/user/appdata/blog/" Mode="rw" Description="Container Path: /var/www/html/data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/blog/</Config>
 </Container>
