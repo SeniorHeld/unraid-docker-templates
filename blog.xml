@@ -15,10 +15,10 @@
   <Description>Facebook-styled blog. Free, extremely lightweight, single-user and easy to install. </Description>
   <ExtraParams>--restart always</ExtraParams>
   <Config Name="Timezone" Target="TZ" Default="Europe/Berlin" Mode="" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Blog Title" Target="BLOG_TITLE" Default="Another Facebook-styled Blog" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Your Name" Target="BLOG_NAME" Default="Max Mustermann" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Username" Target="BLOG_NICK" Default="username" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Password" Target="BLOG_PASS" Default="password" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Language" Target="BLOG_LANG" Default="de" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Blog Title" Target="BLOG_TITLE" Default="Another Facebook-styled Blog" Mode="" Description="Title of your Blog" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Your Name" Target="BLOG_NAME" Default="Max Mustermann" Mode="" Description="Your Name" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Username" Target="BLOG_NICK" Default="username" Mode="" Description="Username for login" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Password" Target="BLOG_PASS" Default="password" Mode="" Description="Password for login" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Language" Target="BLOG_LANG" Default="de" Mode="" Description="Blogs Language" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Port" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">80</Config>
 </Container>
