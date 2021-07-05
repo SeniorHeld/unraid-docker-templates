@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Blog</Name>
+  <Repository>m1k1o/blog</Repository>
+  <Registry>https://hub.docker.com/r/m1k1o/blog</Registry>
+  <TemplateURL>https://raw.githubusercontent.com/digiblur/unraid-docker-templates/master/amcrest2mqtt.xml</TemplateURL>  
+  <WebUI/>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/digiblur/unraid-docker-templates</Support>
+  <Project>https://github.com/digiblur/unraid-docker-templates</Project>
+  <Overview>Facebook-styled blog. Free, extremely lightweight, single-user and easy to install. </Overview>
+  <Category>Productivity: Other: Status:Stable</Category>
+  <Icon>https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg</Icon>
+  <Description>Facebook-styled blog. Free, extremely lightweight, single-user and easy to install. </Description>
+  <ExtraParams>--restart always</ExtraParams>
+  <Config Name="Timezone" Target="TZ" Default="Europe/Berlin" Mode="" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Blog Title" Target="BLOG_TITLE" Default="Another Facebook-styled Blog" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Your Name" Target="BLOG_NAME" Default="Max Mustermann" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Username" Target="BLOG_NICK" Default="username" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Password" Target="BLOG_PASS" Default="password" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Language" Target="BLOG_LANG" Default="de" Mode="Europe/Berlin" Description="Timezone" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Port" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">80</Config>
+</Container>
