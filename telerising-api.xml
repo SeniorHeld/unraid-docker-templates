@@ -21,31 +21,6 @@
       </Port>
     </Publish>
   </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/user/appdata/telerising</HostDir>
-      <ContainerDir>/telerising</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
-  <Environment>
-    <Variable>
-      <Value>99</Value>
-      <Name>USER_ID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>100</Value>
-      <Name>GROUP_ID</Name>
-      <Mode/>
-    </Variable>
-    <Variable>
-      <Value>yes</Value>
-      <Name>UPDATE</Name>
-      <Mode/>
-    </Variable>
-  </Environment>
-  <Labels/>
   <Config Name="Telerising" Target="/telerising" Default="" Mode="rw" Description="Container Path: /telerising" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/telerising-api</Config>
   <Config Name="USER_ID" Target="USER_ID" Default="" Mode="" Description="Container Variable: USER_ID" Type="Variable" Display="always" Required="false" Mask="false">99</Config>
   <Config Name="GROUP_ID" Target="GROUP_ID" Default="" Mode="" Description="Container Variable: GROUP_ID" Type="Variable" Display="always" Required="false" Mask="false">100</Config>
