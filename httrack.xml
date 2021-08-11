@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>httrack</Name>
+  <Repository>htobi02/httrack</Repository>
+  <Registry>https://hub.docker.com/r/htobi02/httrack</Registry>
+  <Network>host</Network>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Overview>download whole websites with httrack</Overview>
+  <Icon>https://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/httrack-icon.png</Icon>
+  <Description>download whole websites with httrack</Description>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Config Name="App Folder" Target="/app" Default="" Mode="rw" Description="Container Path: /app" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/httrack</Config>
+  <Config Name="HTTRACK_URI" Target="HTTRACK_URI" Default="http://example.com" Mode="" Description="URL to Copy" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="HTTRACK_OPTS" Target="HTTRACK_OPTS" Default="-O mirror" Mode="" Description="Options for httrack" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+</Container>
