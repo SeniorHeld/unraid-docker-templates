@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>httrack</Name>
+  <Name>streetmerchant</Name>
   <Repository>htobi02/streetmerchant</Repository>
   <Registry>https://hub.docker.com/r/htobi02/streetmerchant</Registry>
   <Network>host</Network>
   <Shell>bash</Shell>
   <Privileged>false</Privileged>
   <Overview>The world's easiest, most powerful stock checker</Overview>
-  <Icon>https://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/httrack-icon.png</Icon>
+  <Icon>https://avatars.githubusercontent.com/u/12074633?v=4</Icon>
   <Description>Features:
 	First and foremost, this service will not automatically buy for you.
 
