@@ -18,17 +18,10 @@
   <Networking>
     <Mode>host</Mode>
   </Networking>
-  <Config Name="ASCII_BANNER" Target="ASCII_BANNER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="ASCII_COLOR" Target="ASCII_COLOR" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="APNS_AUTHKEY" Target="APNS_AUTHKEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="APNS_BUNDLEID" Target="APNS_BUNDLEID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="APNS_DEVICETOKEN" Target="APNS_DEVICETOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="APNS_KEYID" Target="APNS_KEYID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="APNS_PRODUCTION" Target="APNS_PRODUCTION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="APNS_TEAMID" Target="APNS_TEAMID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="AUTO_ADD_TO_CART" Target="AUTO_ADD_TO_CART" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="BROWSER_TRUSTED" Target="BROWSER_TRUSTED" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="DESKTOP_NOTIFICATIONS" Target="DESKTOP_NOTIFICATIONS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="WEB_PORT" Target="HTTRACK_URI" Default="8413" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SHOW_ONLY_BRANDS" Target="SHOW_ONLY_BRANDS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SHOW_ONLY_MODELS" Target="SHOW_ONLY_MODELS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SHOW_ONLY_SERIES" Target="SHOW_ONLY_SERIES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="DISCORD_NOTIFY_GROUP" Target="DISCORD_NOTIFY_GROUP" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="DISCORD_NOTIFY_GROUP_3060" Target="DISCORD_NOTIFY_GROUP_3060" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="DISCORD_NOTIFY_GROUP_3060TI" Target="DISCORD_NOTIFY_GROUP_3060TI" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
@@ -49,11 +42,16 @@
   <Config Name="DISCORD_NOTIFY_GROUP_XBOXSS" Target="DISCORD_NOTIFY_GROUP_XBOXSS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="DISCORD_NOTIFY_GROUP_TEST" Target="DISCORD_NOTIFY_GROUP_TEST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="DISCORD_WEB_HOOK" Target="DISCORD_WEB_HOOK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="IN_STOCK_WAIT_TIME" Target="IN_STOCK_WAIT_TIME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_ACCESS_TOKEN" Target="STREAMLABS_ACCESS_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_TYPE" Target="STREAMLABS_TYPE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_IMAGE" Target="STREAMLABS_IMAGE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_SOUND" Target="STREAMLABS_SOUND" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_DURATION" Target="STREAMLABS_DURATION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="EMAIL_PASSWORD" Target="EMAIL_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="EMAIL_TO" Target="EMAIL_TO" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="EMAIL_USERNAME" Target="EMAIL_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="HEADLESS" Target="HEADLESS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="IN_STOCK_WAIT_TIME" Target="IN_STOCK_WAIT_TIME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="LOW_BANDWIDTH" Target="LOW_BANDWIDTH" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="MAX_PRICE_SERIES_3060" Target="MAX_PRICE_SERIES_3060" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
@@ -113,9 +111,6 @@
   <Config Name="PUSHOVER_PRIORITY" Target="PUSHOVER_PRIORITY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="RESTART_TIME" Target="RESTART_TIME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="SCREENSHOT" Target="SCREENSHOT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="SHOW_ONLY_BRANDS" Target="SHOW_ONLY_BRANDS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="SHOW_ONLY_MODELS" Target="SHOW_ONLY_MODELS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="SHOW_ONLY_SERIES" Target="SHOW_ONLY_SERIES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="SLACK_CHANNEL" Target="SLACK_CHANNEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="SLACK_TOKEN" Target="SLACK_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="SMARTTHINGS_TOKEN" Target="SMARTTHINGS_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
@@ -139,10 +134,15 @@
   <Config Name="TWITTER_CONSUMER_KEY" Target="TWITTER_CONSUMER_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="TWITTER_CONSUMER_SECRET" Target="TWITTER_CONSUMER_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="TWITTER_TWEET_TAGS" Target="TWITTER_TWEET_TAGS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="STREAMLABS_ACCESS_TOKEN" Target="STREAMLABS_ACCESS_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="STREAMLABS_TYPE" Target="STREAMLABS_TYPE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="STREAMLABS_IMAGE" Target="STREAMLABS_IMAGE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="STREAMLABS_SOUND" Target="STREAMLABS_SOUND" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="STREAMLABS_DURATION" Target="STREAMLABS_DURATION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="WEB_PORT" Target="HTTRACK_URI" Default="8413" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="ASCII_BANNER" Target="ASCII_BANNER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="ASCII_COLOR" Target="ASCII_COLOR" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_AUTHKEY" Target="APNS_AUTHKEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_BUNDLEID" Target="APNS_BUNDLEID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_DEVICETOKEN" Target="APNS_DEVICETOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_KEYID" Target="APNS_KEYID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_PRODUCTION" Target="APNS_PRODUCTION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_TEAMID" Target="APNS_TEAMID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="AUTO_ADD_TO_CART" Target="AUTO_ADD_TO_CART" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="BROWSER_TRUSTED" Target="BROWSER_TRUSTED" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DESKTOP_NOTIFICATIONS" Target="DESKTOP_NOTIFICATIONS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
 </Container>
