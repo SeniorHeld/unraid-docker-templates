@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>httrack</Name>
+  <Repository>htobi02/streetmerchant</Repository>
+  <Registry>https://hub.docker.com/r/htobi02/streetmerchant</Registry>
+  <Network>host</Network>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Overview>The world's easiest, most powerful stock checker</Overview>
+  <Icon>https://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/httrack-icon.png</Icon>
+  <Description>Features:
+	First and foremost, this service will not automatically buy for you.
+
+	Checks stock continuously -- runs 24/7, 365, looking for the items you want.
+	Ready for checkout -- ability to add to cart when available and even opens the browser for you.
+	Notifications galore -- when you're not by your computer, worry free with notifications to most platforms and devices when an item comes in stock.
+  </Description>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Config Name="ASCII_BANNER" Target="ASCII_BANNER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="ASCII_COLOR" Target="ASCII_COLOR" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_AUTHKEY" Target="APNS_AUTHKEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_BUNDLEID" Target="APNS_BUNDLEID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_DEVICETOKEN" Target="APNS_DEVICETOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_KEYID" Target="APNS_KEYID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_PRODUCTION" Target="APNS_PRODUCTION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="APNS_TEAMID" Target="APNS_TEAMID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="AUTO_ADD_TO_CART" Target="AUTO_ADD_TO_CART" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="BROWSER_TRUSTED" Target="BROWSER_TRUSTED" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DESKTOP_NOTIFICATIONS" Target="DESKTOP_NOTIFICATIONS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP" Target="DISCORD_NOTIFY_GROUP" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_3060" Target="DISCORD_NOTIFY_GROUP_3060" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_3060TI" Target="DISCORD_NOTIFY_GROUP_3060TI" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_3070" Target="DISCORD_NOTIFY_GROUP_3070" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_3080" Target="DISCORD_NOTIFY_GROUP_3080" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_3090" Target="DISCORD_NOTIFY_GROUP_3090" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_CORSAIR_SF" Target="DISCORD_NOTIFY_GROUP_CORSAIR_SF" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_RX6800" Target="DISCORD_NOTIFY_GROUP_RX6800" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_RX6800XT" Target="DISCORD_NOTIFY_GROUP_RX6800XT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_RX6900XT" Target="DISCORD_NOTIFY_GROUP_RX6900XT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_RYZEN5600" Target="DISCORD_NOTIFY_GROUP_RYZEN5600" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_RYZEN5800" Target="DISCORD_NOTIFY_GROUP_RYZEN5800" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_RYZEN5900" Target="DISCORD_NOTIFY_GROUP_RYZEN5900" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_RYZEN5950" Target="DISCORD_NOTIFY_GROUP_RYZEN5950" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_SONYPS5C" Target="DISCORD_NOTIFY_GROUP_SONYPS5C" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_SONYPS5DE" Target="DISCORD_NOTIFY_GROUP_SONYPS5DE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_XBOXSX" Target="DISCORD_NOTIFY_GROUP_XBOXSX" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_XBOXSS" Target="DISCORD_NOTIFY_GROUP_XBOXSS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_NOTIFY_GROUP_TEST" Target="DISCORD_NOTIFY_GROUP_TEST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="DISCORD_WEB_HOOK" Target="DISCORD_WEB_HOOK" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="EMAIL_PASSWORD" Target="EMAIL_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="EMAIL_TO" Target="EMAIL_TO" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="EMAIL_USERNAME" Target="EMAIL_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="HEADLESS" Target="HEADLESS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="IN_STOCK_WAIT_TIME" Target="IN_STOCK_WAIT_TIME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="LOW_BANDWIDTH" Target="LOW_BANDWIDTH" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_3060" Target="MAX_PRICE_SERIES_3060" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_3060TI" Target="MAX_PRICE_SERIES_3060TI" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_3070" Target="MAX_PRICE_SERIES_3070" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_3080" Target="MAX_PRICE_SERIES_3080" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_3090" Target="MAX_PRICE_SERIES_3090" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_CORSAIR_SF" Target="MAX_PRICE_SERIES_CORSAIR_SF" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_RX6800" Target="MAX_PRICE_SERIES_RX6800" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_RX6800XT" Target="MAX_PRICE_SERIES_RX6800XT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_RX6900XT" Target="MAX_PRICE_SERIES_RX6900XT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_RYZEN5600" Target="MAX_PRICE_SERIES_RYZEN5600" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_RYZEN5800" Target="MAX_PRICE_SERIES_RYZEN5800" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_RYZEN5900" Target="MAX_PRICE_SERIES_RYZEN5900" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_RYZEN5950" Target="MAX_PRICE_SERIES_RYZEN5950" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_SONYPS5C" Target="MAX_PRICE_SERIES_SONYPS5C" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_SONYPS5DE" Target="MAX_PRICE_SERIES_SONYPS5DE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_XBOXSS" Target="MAX_PRICE_SERIES_XBOXSS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_XBOXSX" Target="MAX_PRICE_SERIES_XBOXSX" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MAX_PRICE_SERIES_TEST" Target="MAX_PRICE_SERIES_TEST" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MICROCENTER_LOCATION" Target="MICROCENTER_LOCATION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT_BROKER_ADDRESS" Target="MQTT_BROKER_ADDRESS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT_BROKER_PORT" Target="MQTT_BROKER_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT_CLIENT_ID" Target="MQTT_CLIENT_ID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT_PASSWORD" Target="MQTT_PASSWORD" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT_QOS" Target="MQTT_QOS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT_TOPIC" Target="MQTT_TOPIC" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="MQTT_USERNAME" Target="MQTT_USERNAME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="OPEN_BROWSER" Target="OPEN_BROWSER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PAGE_BACKOFF_MIN" Target="PAGE_BACKOFF_MIN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PAGE_BACKOFF_MAX" Target="PAGE_BACKOFF_MAX" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PAGE_SLEEP_MIN" Target="PAGE_SLEEP_MIN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PAGE_SLEEP_MAX" Target="PAGE_SLEEP_MAX" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PAGE_TIMEOUT" Target="PAGE_TIMEOUT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PAGERDUTY_INTEGRATION_KEY" Target="PAGERDUTY_INTEGRATION_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PAGERDUTY_SEVERITY" Target="PAGERDUTY_SEVERITY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHILIPS_HUE_API_KEY" Target="PHILIPS_HUE_API_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHILIPS_HUE_CLOUD_ACCESS_TOKEN" Target="PHILIPS_HUE_CLOUD_ACCESS_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHILIPS_HUE_CLOUD_CLIENT_ID" Target="PHILIPS_HUE_CLOUD_CLIENT_ID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHILIPS_HUE_CLOUD_CLIENT_SECRET" Target="PHILIPS_HUE_CLOUD_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHILIPS_HUE_CLOUD_REFRESH_TOKEN" Target="PHILIPS_HUE_CLOUD_REFRESH_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHILIPS_HUE_LAN_BRIDGE_IP" Target="PHILIPS_HUE_LAN_BRIDGE_IP" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHILIPS_HUE_LIGHT_COLOR" Target="PHILIPS_HUE_LIGHT_COLOR" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHILIPS_HUE_LIGHT_IDS" Target="PHILIPS_HUE_LIGHT_IDS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHILIPS_HUE_LIGHT_PATTERN" Target="PHILIPS_HUE_LIGHT_PATTERN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHONE_CARRIER" Target="PHONE_CARRIER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PHONE_NUMBER" Target="PHONE_NUMBER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PLAY_SOUND" Target="PLAY_SOUND" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PROXY_ADDRESS" Target="PROXY_ADDRESS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PROXY_PROTOCOL" Target="PROXY_PROTOCOL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PROXY_PORT" Target="PROXY_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PUSHBULLET" Target="PUSHBULLET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PUSHOVER_EXPIRE" Target="PUSHOVER_EXPIRE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PUSHOVER_RETRY" Target="PUSHOVER_RETRY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PUSHOVER_TOKEN" Target="PUSHOVER_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PUSHOVER_USER" Target="PUSHOVER_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="PUSHOVER_PRIORITY" Target="PUSHOVER_PRIORITY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="RESTART_TIME" Target="RESTART_TIME" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SCREENSHOT" Target="SCREENSHOT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SHOW_ONLY_BRANDS" Target="SHOW_ONLY_BRANDS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SHOW_ONLY_MODELS" Target="SHOW_ONLY_MODELS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SHOW_ONLY_SERIES" Target="SHOW_ONLY_SERIES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SLACK_CHANNEL" Target="SLACK_CHANNEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SLACK_TOKEN" Target="SLACK_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SMARTTHINGS_TOKEN" Target="SMARTTHINGS_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SMARTTHINGS_SWITCH_LABEL" Target="SMARTTHINGS_SWITCH_LABEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SMTP_ADDRESS" Target="SMTP_ADDRESS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="SMTP_PORT" Target="SMTP_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STORES" Target="STORES" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TELEGRAM_ACCESS_TOKEN" Target="TELEGRAM_ACCESS_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TELEGRAM_CHAT_ID" Target="TELEGRAM_CHAT_ID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWILIO_ACCOUNT_SID" Target="TWILIO_ACCOUNT_SID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWILIO_AUTH_TOKEN" Target="TWILIO_AUTH_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWILIO_FROM_NUMBER" Target="TWILIO_FROM_NUMBER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWILIO_TO_NUMBER" Target="TWILIO_TO_NUMBER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITCH_ACCESS_TOKEN" Target="TWITCH_ACCESS_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITCH_CHANNEL" Target="TWITCH_CHANNEL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITCH_CLIENT_ID" Target="TWITCH_CLIENT_ID" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITCH_CLIENT_SECRET" Target="TWITCH_CLIENT_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITCH_REFRESH_TOKEN" Target="TWITCH_REFRESH_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITTER_ACCESS_TOKEN_KEY" Target="TWITTER_ACCESS_TOKEN_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITTER_ACCESS_TOKEN_SECRET" Target="TWITTER_ACCESS_TOKEN_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITTER_CONSUMER_KEY" Target="TWITTER_CONSUMER_KEY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITTER_CONSUMER_SECRET" Target="TWITTER_CONSUMER_SECRET" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITTER_TWEET_TAGS" Target="TWITTER_TWEET_TAGS" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_ACCESS_TOKEN" Target="STREAMLABS_ACCESS_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_TYPE" Target="STREAMLABS_TYPE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_IMAGE" Target="STREAMLABS_IMAGE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_SOUND" Target="STREAMLABS_SOUND" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="STREAMLABS_DURATION" Target="STREAMLABS_DURATION" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="WEB_PORT" Target="HTTRACK_URI" Default="8413" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+</Container>
