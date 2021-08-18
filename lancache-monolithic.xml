@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>lancache-monolithic</Name>
+  <Repository>lancachenet/monolithic:latest</Repository>
+  <Registry>https://hub.docker.com/r/lancachenet/monolithic:latest</Registry>
+  <Network>host</Network>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Overview>The Heart of LANCache</Overview>
+  <Icon>https://avatars.githubusercontent.com/u/16938914</Icon>
+  <Description>The Heart of LANCache</Description>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Config Name="Cache" Target="/data/cache" Default="" Mode="rw" Description="Container Path: /data/cache" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Games/lancache</Config>
+  <Config Name="Port" Target="80" Default="80" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="true" Mask="false">80</Config>
+  <Config Name="Port" Target="443" Default="443" Mode="tcp" Description="Container Port: 443" Type="Port" Display="always" Required="true" Mask="false">443</Config>
+  <Config Name="Logs" Target="/data/logs" Default="" Mode="rw" Description="Container Path: /data/logs" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lancache/logs</Config>
+  <Config Name="USE_GENERIC_CACHE" Target="USE_GENERIC_CACHE" Default="true" Mode="" Description="Set this to true if you're using a load balancer, or set it to false if you're using seperate IPs for each service. If you're using monolithic (the default), leave this set to true" Type="Variable" Display="always" Required="true" Mask="false">true</Config>
+  <Config Name="LANCACHE_IP" Target="LANCACHE_IP" Default="10.0.39.1" Mode="" Description="IP addresses that the lancache monolithic instance is reachable on" Type="Variable" Display="always" Required="true" Mask="false">10.0.39.1</Config>
+  <Config Name="UPSTREAM_DNS" Target="UPSTREAM_DNS" Default="1.1.1.1" Mode="" Description="DNS Resolution for forwarded DNS lookups" Type="Variable" Display="always" Required="true" Mask="false">1.1.1.1</Config>
+  <Config Name="CACHE_DISK_SIZE" Target="CACHE_DISK_SIZE" Default="1000000m" Mode="" Description="Change this to customise the size of the disk cache (default 1000000m). If you have more storage, you'll likely want to increase this. The cache server will prune content on a least-recently-used basis if it starts approaching this limit. Set this to a little bit less than your actual available space " Type="Variable" Display="always" Required="true" Mask="false">1000000m</Config>
+  <Config Name="CACHE_MEM_SIZE" Target="CACHE_MEM_SIZE" Default="500m" Mode="" Description="Change this to customise the size of the nginx cache manager (default 500m)" Type="Variable" Display="always" Required="true" Mask="false">500m</Config>
+  <Config Name="CACHE_MAX_AGE" Target="CACHE_MAX_AGE" Default="3650d" Mode="" Description="Change this to limit the maximum age of cached content (default 3650d)" Type="Variable" Display="always" Required="true" Mask="false">3650d</Config>
+  <Config Name="TZ" Target="TZ" Default="Europe/Berlin" Mode="" Description="Set the timezone for the docker containers, useful for correct timestamps on logs (default Europe/London)" Type="Variable" Display="always" Required="true" Mask="false">Europe/Berlin</Config>
+</Container>
