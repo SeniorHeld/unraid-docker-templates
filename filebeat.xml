@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>filebeat</Name>
+  <Repository>docker.elastic.co/beats/filebeat:7.9.1</Repository>
+  <Registry>https://docker.elastic.co/beats/filebeat:7.9.1</Registry>
+  <Network>host</Network>
+  <Shell>bash</Shell>
+  <Privileged>false</Privileged>
+  <Overview>filebeat for elasticsearch and lancache.net</Overview>
+  <Icon>https://pagely.com/wp-content/uploads/2020/11/filebeat-logo.png</Icon>
+  <Description>filebeat for elasticsearch and lancache.net</Description>
+  <Networking>
+    <Mode>host</Mode>
+  </Networking>
+  <Config Name="Lancache Logs" Target="/data/logs" Default="" Mode="rw" Description="Container Path: /data/logs" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lancache-bundle/log/</Config>
+  <Config Name="App Folder" Target="/usr/share/filebeat/filebeat.yml" Default="" Mode="rw" Description="Container Path: /usr/share/filebeat/filebeat.yml" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/lancache-bundle/filebeat.yml</Config>
+</Container>
