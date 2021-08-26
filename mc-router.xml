@@ -8,7 +8,7 @@
   <Overview>run multiple mc-servers behind one ip</Overview>
   <Icon>https://secure.gravatar.com/avatar/bf3028b613a63e02f77c7434dd7dc53a.jpg</Icon>
   <Description>run multiple mc-servers behind one ip</Description>
-  <ExtraParams>--mapping=$MAPPING</ExtraParams>
+  <PostParams>--mapping=$MAPPING</ExtraParams>
   <Config Name="Port" Target="25565" Default="25565" Mode="tcp" Description="Container Port: 25565" Type="Port" Display="always" Required="true" Mask="false">25565</Config>
   <Config Name="BINDINGS" Target="BINDINGS" Default="example.com=192.168.0.1:25565,2.example.com=192.168.0.2:25565" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
 </Container>
