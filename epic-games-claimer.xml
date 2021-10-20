@@ -12,5 +12,5 @@
   <Icon>https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1200px-Epic_Games_logo.svg.png</Icon>
   <Description>You need "DeviceAuthGenerator" to get this Template to work. Refer to https://github.com/Revadike/epicgames-freebies-claimer#instructions---detailed</Description>
   <ExtraParams>--restart always</ExtraParams>
-  <Config Name="device_auths.json" Target="/egclaimer/device_auths.json" Default="" Mode="rw" Description="Container Path: /egclaimer/device_auths.json" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/epic-games-claimer/device_auths.json</Config>
+  <Config Name="device_auths.json" Target="/egclaimer/data/device_auths.json" Default="" Mode="rw" Description="Container Path: /egclaimer/device_auths.json" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/epic-games-claimer/device_auths.json</Config>
 </Container>
