@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>f1tv-rtmp</Name>
+  <Repository>htobi02/f1tv</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1637429484</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>1935</HostPort>
+        <ContainerPort>1935</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/record</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value/>
+      <Name>F1TV_EMAIL</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>F1TV_PASSWORD</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name/>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="rtmp port" Target="1935" Default="" Mode="tcp" Description="Container Port: 1935" Type="Port" Display="always" Required="false" Mask="false">1935</Config>
+  <Config Name="F1TV_EMAIL" Target="F1TV_EMAIL" Default="" Mode="" Description="Container Variable: F1TV_EMAIL" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="F1TV_PASSWORD" Target="F1TV_PASSWORD" Default="" Mode="" Description="Container Variable: F1TV_PASSWORD" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="RECORD" Target="" Default="" Mode="" Description="if you want to record every f1 session type " Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="Recording path" Target="/record" Default="" Mode="rw" Description="only needed if you want to record every f1 session" Type="Path" Display="always" Required="false" Mask="false"/>
+</Container>
