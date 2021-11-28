@@ -31,7 +31,7 @@
     </Publish>
   </Networking>
   <Labels/>
-  <Config Name="8080" Target="8080" Default="" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">8001</Config>
+  <Config Name="8080" Target="8080" Default="" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
   <Config Name="Analytics Path" Target="/app/analytics" Default="" Mode="rw" Description="Container Path: /app/analytics" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/twitch-channel-point-miner/analytics/</Config>
   <Config Name="Cookies Path" Target="/app/cookies" Default="" Mode="rw" Description="Container Path: /app/cookies" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/twitch-channel-point-miner/cookies/</Config>
   <Config Name="Logs Path" Target="/app/logs" Default="" Mode="rw" Description="Container Path: /app/logs" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/twitch-channel-point-miner/logs/</Config>
