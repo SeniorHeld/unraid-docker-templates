@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>twitch-channel-point-miner</Name>
+  <Repository>htobi02/twitch-channel-point-miner:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Description\>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Labels/>
+  <Config Name="8080" Target="8080" Default="" Mode="tcp" Description="Container Port: 8080" Type="Port" Display="always" Required="false" Mask="false">8001</Config>
+  <Config Name="Analytics Path" Target="/app/analytics" Default="" Mode="rw" Description="Container Path: /app/analytics" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/twitch-channel-point-miner/analytics/</Config>
+  <Config Name="Cookies Path" Target="/app/cookies" Default="" Mode="rw" Description="Container Path: /app/cookies" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/twitch-channel-point-miner/cookies/</Config>
+  <Config Name="Logs Path" Target="/app/logs" Default="" Mode="rw" Description="Container Path: /app/logs" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/twitch-channel-point-miner/logs/</Config>
+  <Config Name="TWITCH_USERNAME" Target="TWITCH_USERNAME" Default="" Mode="" Description="Container Variable: TWITCH_USERNAME" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="TWITCH_PASSWORD" Target="TWITCH_PASSWORD" Default="" Mode="" Description="Container Variable: TWITCH_PASSWORD" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+</Container>
